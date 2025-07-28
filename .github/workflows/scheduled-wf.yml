@@ -4,11 +4,11 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [main]
+#  push:
+#    branches: [main]
 
   schedule:
-    - cron: '50 14 * * *'  # Runs daily at  14:50 UTC
+    - cron: '15 16 * * *'  # Runs daily at  16:15 UTC
 
 jobs:
   test:
