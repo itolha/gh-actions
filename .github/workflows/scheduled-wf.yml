@@ -9,6 +9,7 @@ on:
 
   schedule:
     - cron: '45 20 * * *'  # Runs daily at  20:15 UTC
+  workflow_dispatch:
 
 jobs:
   test:
